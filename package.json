@@ -1,0 +1,30 @@
+{
+  "name": "image-preloader-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marudka/image-preloader-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marudka/image-preloader-react/issues"
+  },
+  "homepage": "https://github.com/marudka/image-preloader-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "react": "^16.0.0"
+  }
+}
