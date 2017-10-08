@@ -1,10 +1,10 @@
 var path = require("path");
 
 module.exports = {
-    entry: path.join(__dirname, "lib/index.js"),
+    entry: path.join(__dirname, "demo/index.js"),
     output: {
         filename: "index.js",
-        path: path.join(__dirname, "/dist")
+        path: path.join(__dirname, "/demo/dist")
     },
     module: {
         rules: [

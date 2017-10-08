@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "mocha --compilers js:babel-register spec/*spec.js --reporter spec||exit 0"
+    "build:demo": "webpack --config webpack.config.demo.js",
+    "start": "webpack-dev-server --content-base demo --inline --hot --port 3000",
+    "test": "mocha -compilers js:babel-register spec/*spec.js --reporter spec||exit 0"
   },
   "repository": {
     "type": "git",
@@ -23,13 +25,19 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "mocha": "^4.0.1",
+    "node-sass": "^4.5.3",
     "react-test-renderer": "^16.0.0",
-    "webpack": "^3.6.0"
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }
