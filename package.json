@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "build:demo": "webpack --config webpack.config.demo.js",
-    "start": "webpack-dev-server --content-base demo --inline --hot --port 3000",
+    "start": "webpack-dev-server --content-base demo --inline --hot --port 3001",
     "test": "mocha -compilers js:babel-register spec/*spec.js --reporter spec||exit 0"
   },
   "repository": {
